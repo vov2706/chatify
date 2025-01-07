@@ -1,0 +1,12 @@
+{
+  "name": "chatify",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "yarn client:start && yarn server:start",
+    "client:start": "cd applications/client && yarn dev",
+    "server:start": "cd applications/server && yarn dev"
+  }
+}
